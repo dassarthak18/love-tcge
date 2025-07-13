@@ -2,6 +2,12 @@
 
 This is a game engine written in Lua (LÖVE2D) for designing and playing card games over the internet using the standard 52-card French deck, or its derivatives. Think of it as Gary's mod -- but for playing cards.
 
+## Screenshots
+
+![Deck Builder](screenshot/deck_builder.png)
+
+![Example Deck](screenshot/example_deck.png)
+
 ## Credits
 
 * The card designs are taken from [Tek Eye](https://tekeye.uk/playing_cards/svg-playing-cards).
