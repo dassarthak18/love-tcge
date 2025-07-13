@@ -1,6 +1,6 @@
 # The LÖVE2D Card Games Engine
 
-This is a game engine written in Lua (LÖVE2D) for designing and playing card games over the internet using the standard 52-card French deck, or its derivatives. Think of it as Gary's mod -- but for playing cards.
+This is a game engine written in Lua (LÖVE2D) for designing and playing card games over the internet using the standard 52-card French deck, or its derivatives. Card games can be saved, loaded and shared as JSON files. Think of it as Gary's mod -- but for playing cards.
 
 ## Screenshots
 
