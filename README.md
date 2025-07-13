@@ -10,5 +10,6 @@ This is a game engine written in Lua (LÖVE2D) for designing and playing card ga
 
 ## Credits
 
+* The game engine is written in the [LÖVE2D framework for Lua](https://www.love2d.org/).
 * The card designs are taken from [Tek Eye](https://tekeye.uk/playing_cards/svg-playing-cards).
 * The fonts are sourced from [edX Fonts](https://github.com/clintonb/edx-fonts).
