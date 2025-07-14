@@ -4,23 +4,19 @@ This is a game engine written in Lua (LÖVE2D) for designing (classics as well a
 
 ## Game Types Supported
 
-The following game types (2-6 players only) are supported:
+The engine currently supports 2 to 6 player games. Game types are grouped by structure and objective:
 
-* **Outplay Games.** Each player has a hand of cards and a move consists of playing out one or more cards to the table to achieve some effect. The play ends when some or all of the players have run out of cards to play.
-  * **Trick-Taking Games.** A trick consists of each player in turn playing one card face up to the table.
-  * **Beating Games.** At your turn you must either beat the card played by the previous player or pick it up (possibly with other cards) and add it to your hand.
-  * **Fishing Games.** There is a pool of face-up cards on the table which can be captured by playing a matching card from your hand.
-  * **Matching Games.** At your turn you must play a card which matches the previous play or fits into a layout according to some rule.
-* **Card Exchange Games.** Each player has a hand of cards and a move consists of exchanging a card or cards. The objective is generally to collect certain cards or combinations of cards.
-  * **Draw and Discard Games.** The basic move is to draw a card from the stock and discard one to the discard pile.
-  * **Commerce Group.** There is a common pool of cards on the table, and at your turn you exchange one or more cards with the pool.
-  * **Quartet Group.** At your turn you can ask another player for a card that you want, and if they have it they must give it to you.
-* **Hand Comparison Games.** The result is determined simply by comparing the cards dealt to the players to see which is best, or sometimes simply on the turn of a card or cards to decide whether a player wins or loses.
-  * **Showdown Games.** In these games the players' hands are compared with each other and the player with the best hand wins (or the one with the worst hand loses).
-  * **Partition Games.** The players divide their hand into parts, which are compared separately.
-  * **Banking Games.** The players do not play against each other, but each plays individually against a special player - the banker.
+* **Outplay Games.** Players hold a hand of cards and take turns playing cards to a shared table area. The game ends when players exhaust their hands.
+  * **Trick-Taking Games.** Each player plays one card per turn into a "trick"; the best card wins the trick. (Example: _Spades_, _Hearts_, _Bridge_, _Callbreak_, _29_)
+  * **Shedding Games.** Players try to get rid of their cards; the fastest player wins. Variants with the inverted objective of amassing all cards also supported. (Example: _Bluff_, _Crazy Eights_, _Rang Milanti_)
+* **Card Exchange Games.** The focus is on trading cards to build specific sets or combinations.
+  * **Draw and Discard Games.** Each turn consists of drawing a card from the stock and discarding one. (Example: _Rummy_, _Gin Rummy_, _Paplu_)
+  * **Quartet Group.** Ask opponents for specific cards; if they have them, they must give them to you. (Example: _Go Fish_)
+* **Hand Comparison Games.** Victory is determined by comparing hands, not by sequential play.
+  * **Showdown Games.** Players reveal their hands; best hand wins. (Example: _No Limit Texas Hold'em_, _Teen Patti_)
+  * **Banking Games.** Players compete against a designated banker, not against each other. (Example: _Blackjack_)
 
-This is barely scratching at the surface of the vast possibilities a deck of cards brings. For example, the entire category of **Layout Games** (such as **Patience** and **Competitive Patience**) have been excluded -- but are in consideration for a possible future extension.
+This is barely scratching at the surface of the vast possibilities a deck of cards brings. For example, the entire category of **Layout Games** (with subcategories such as **Patience** and **Competitive Patience**) are currently not included, but planned for future expansion. Another unfortunate exclusion is the **War Group**.
 
 ## Screenshots
 
